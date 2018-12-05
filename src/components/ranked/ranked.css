@@ -1,0 +1,69 @@
+.ranked{
+	padding-top: 43px;
+	padding-bottom: 50px;
+}
+.ranked .songPic{
+	width:100%;
+	height:125px;
+	overflow: hidden;
+	position: relative;
+}
+.ranked .songPic img{
+	width:100%;
+	position: absolute;
+	top:-90px;
+}
+.ranked li{
+	color: #333;
+	padding-left: 10px;
+	position: relative;
+	display: flex;
+	border:4px transparent solid;
+}
+.ranked li .left{
+	width: 30px;
+    font-size: 17px;
+    line-height: 53px;
+    display: flex;
+    color: #999;
+}
+.ranked li .center{
+	padding: 6px 0 6px 6px;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #f0f0f0;
+}
+.ranked li .text{
+	float:left;
+	width:220px;
+}
+.ranked li .text h3{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+    font-size: 17px;
+    font-weight: normal;
+}
+.ranked li .text p{
+	font-size: 12px;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.ranked li .right{
+    padding: 0 10px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(/images/ranked_icon.png) no-repeat;
+    background-position: -24px 0;
+    background-size: 166px 97px;
+    float:right;
+	margin-top: 11px;
+}
+.ranked .active{
+	border-left:4px #d43c33 solid;
+}

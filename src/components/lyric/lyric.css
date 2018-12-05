@@ -1,0 +1,11 @@
+.lyric{ width: 100%; position: absolute; top:45px; bottom:56px; background-image:url(/images/detailsBg.jpg); background-size: cover; background-position:center;color:white; overflow-y: hidden; }
+.lyric ul{ width:100%; text-align:center; color:white; font-size:14px; position:absolute; top:0; left:0; transition:.2s; -webkit-transition:.2s;} 
+.lyric li{ margin-top:15px;}
+.lyric li.active{ color:#00ffff;}
+.lyric .mtk{
+	width: 100%; 
+	position: absolute; 
+	top:0;
+	bottom:0;
+	background: rgba(0,0,0,.5);
+}

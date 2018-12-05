@@ -1,0 +1,45 @@
+.audio{
+    width: 100%;
+    height: 56px;
+    background: url(/images/list_audioBg.png);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.audio .audioPlay {
+    width: 30px;
+    height: 30px;
+    background: url(/images/list_audioPlay.png);
+    background-size: cover;
+    margin: 13px 20px;
+}
+
+.audio .audioProgress {
+    height: 2px;
+    background: white;
+    position: relative;
+    flex: 1;
+    top: 28px;
+    margin-right: 20px;
+}
+
+.audio .audioBar {
+    width: 15px;
+    height: 15px;
+    background: #29abe2;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+}
+
+.audio .audioNow {
+    width: 0;
+    height: 2px;
+    background: #29abe2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

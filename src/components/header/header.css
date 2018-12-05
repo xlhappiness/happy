@@ -1,0 +1,35 @@
+.header{
+	width:100%;
+	position: fixed;
+    height: 50px;
+    background: #d43c33;
+    z-index: 1000;
+}
+.header a,
+.header span{
+    font-size: 18px;
+    position: absolute;
+    top:12px;
+    left:12px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+}
+.logo{
+    background: url(/images/logo.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border-radius: 5px;
+}
+
+.header .title{
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size: 18px;
+}
