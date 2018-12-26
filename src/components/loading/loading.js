@@ -12,7 +12,7 @@ class Loading extends Component {
 						<div className="loader-line">456</div>
 					</div>
 					<div className="loader-line-wrap">
-						<div className="loader-line"></div>
+						<div className="loader-line">789</div>
 					</div>
 					<div className="loader-line-wrap">
 						<div className="loader-line"></div>
